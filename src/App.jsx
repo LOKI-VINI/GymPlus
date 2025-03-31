@@ -72,6 +72,7 @@ const ProtectedRoute = ({ children, allowedRoles }) => {
 
 // Main App component
 const App = () => {
+  
   return (
     <AuthProvider>
       <GymProvider>
